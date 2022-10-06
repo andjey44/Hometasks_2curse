@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <style>
+        div {
+            background-color: LightSeaGreen;
+            border: 2px solid #000;
+            margin: 10px;
+            width: 200px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    {#
+        базовый шаблон, который используют остальные шаблоны
+        имеет общую структуру, чтобы не дублировать код
+
+        инициируем блок body, который переопределяется в шаблонах
+    #}
+    {% block body %}{% endblock %}
+</body>
+</html>

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block body %}
+    <h1>{{ title }}</h1>
+    <div><form>
+        <p>Name: <label><input name="name"></input></label></p>
+        <p>Country: <label><input name="country"></input></label></p>
+        <p>Rating: <label><input name="rating"></input></label></p>
+        <button type="submit">Add to the base</button>
+    </form></div>
+{% endblock %}
